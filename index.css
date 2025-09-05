@@ -60,13 +60,35 @@ button:hover {
   border-radius: 4px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.button-group {
+  display: flex;
+  gap: 5px;
 }
 
 .remove-btn {
   background: #dc3545;
+}
+
+.edit-btn {
+  background: #ffc107;
+  color: black;
+}
+
+.remove-btn, .edit-btn {
   color: white;
   border: none;
   padding: 4px 8px;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.remove-btn:hover {
+  background: #c82333;
+}
+
+.edit-btn:hover {
+  background: #e0a800;
 }
