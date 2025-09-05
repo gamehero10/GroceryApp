@@ -92,3 +92,12 @@ button:hover {
 .edit-btn:hover {
   background: #e0a800;
 }
+
+.bought {
+  text-decoration: line-through;
+  color: gray;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
+}
